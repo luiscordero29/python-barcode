@@ -18,5 +18,5 @@ def barcode_decode(im) :
 if __name__ == '__main__':
  
   # Read image
-  image_barcode = cv2.imread('barcode_1.jpeg')
+  image_barcode = cv2.imread('/home/luiscordero29/Projects/Uworks/ucontrol/laravel/public/uploads/a5637c74-b23e-4d81-b2bf-a08f13cdab6c.jpg')
   barcode_decode(image_barcode)
